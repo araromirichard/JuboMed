@@ -2,7 +2,7 @@
 <template>
   <nav
     id="navbar"
-    class="px-4 py-4 sm:py-6 bg-primary shadow sm:bg-primary sm:shadow-none sm:fixed w-full z-10"
+    class="px-4 py-4 sm:py-6 bg-primary shadow sm:bg-primary sm:shadow-none sm:fixed top-0 w-full z-50"
   >
     <div
       class="container mx-auto flex flex-col sm:flex-row items-center justify-between"
