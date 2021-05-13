@@ -1,6 +1,6 @@
 <template>
   <router-link
-    class="block sm:inline-block sm:px-3 py-2 hover:text-secondary transition-colors duration-300"
+    class="block sm:inline-block sm:px-2 py-2 uppercase hover:text-secondary transition-colors duration-300"
     :to="to"
     >{{ label }}</router-link
   >

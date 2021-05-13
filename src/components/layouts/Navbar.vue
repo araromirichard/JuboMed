@@ -49,7 +49,7 @@
       </div>
 
       <div
-        class="mt-4 sm:mt-0 w-full sm:space-x-4 sm:block text-white"
+        class="mt-4 sm:mt-0 w-full sm:space-x-4 sm:block text-lg text-white"
         :class="{ hidden: !isVisible }"
       >
         <NavbarLinks to="/" label="Home" />
