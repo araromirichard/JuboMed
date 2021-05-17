@@ -1,6 +1,6 @@
 <template>
   <footer class="text-gray-600 bg-primary body-font">
-    <div class="container px-5 py-12 mx-auto">
+    <div class="container px-5 py-4 mx-auto">
       <div
         class="flex flex-wrap md:text-left text-center order-first justify-center"
       >
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div
-      class="text-center py-6 px-4 container mx-auto text-gray-100 text-lg mt-12"
+      class="text-center py-2 px-4 container mx-auto text-gray-100 text-lg mt-12"
     >
       <div class="md:flex justify-between items-center">
         <div class="mb-4 md:mb-0">Connect with Us on Social Media..</div>
@@ -71,7 +71,7 @@
       </div>
     </div>
     <div
-      class="bg-gray-100 text-center justify-center mx-auto text-gray-700 w-full py-6"
+      class="bg-gray-100 text-center justify-center mx-auto text-gray-700 w-full py-2"
     >
       <span class="px-3">&copy;</span>{{ new Date().getFullYear() }} —
       <span>website design by</span>

@@ -13,6 +13,8 @@ module.exports = {
                 success: "#059669",
                 info: "#3B82F6",
                 vintage: "#6B7280",
+                tata: "#3f4c6b",
+                mimi: "#0b8793",
             },
         },
     },

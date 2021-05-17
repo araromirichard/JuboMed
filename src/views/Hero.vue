@@ -39,7 +39,7 @@
         </p>
         <div class="flex justify-center">
           <button
-            class="inline-flex text-white bg-vintage border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg"
+            class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg"
           >
             Get to know More
           </button>
