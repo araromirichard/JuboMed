@@ -4,7 +4,7 @@
       <div
         class="flex flex-wrap md:text-left text-center order-first justify-center"
       >
-        <div class="my-6 text-base text-white flex flex-col md:flex-row">
+        <div class="my-4 text-base text-white flex flex-col md:flex-row">
           <ul
             class="md:flex items-center"
             v-for="fLink in fLinks"
@@ -12,7 +12,7 @@
             :to="fLink.url"
           >
             <li
-              class="md:mr-6 cursor-pointer pt-4 lg:py-0 text-lg uppercase hover:text-secondary bg-primary focus:bg-opacity-25"
+              class="md:mr-6 cursor-pointer pt-2 lg:py-0 text-lg uppercase hover:text-secondary bg-primary focus:bg-opacity-25"
             >
               {{ fLink.label }}
             </li>
