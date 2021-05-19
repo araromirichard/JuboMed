@@ -8,7 +8,7 @@
       class="container mx-auto flex flex-col sm:flex-row items-center justify-between"
     >
       <div class="w-full flex flex-row items-center justify-between">
-        <div class="text-gray-700">
+        <div class="text-gray-700 logo">
           <router-link to="/">
             <img
               src="@/assets/whitelogo.png"

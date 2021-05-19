@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#navbar .router-link-active {
+    @apply text-red-500;
+}
+
+#navbar .router-link-active .logo {
+    @apply text-current border-none;
+}
+
+@screen sm {
+    #navbar .router-link-active {
+        @apply text-current border-b-2 border-white;
+    }
+}

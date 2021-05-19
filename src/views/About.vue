@@ -1,32 +1,50 @@
 <template>
-  <div class="relative sm:pt-32 z-0 sm:h-96">
-    <img
-      src="@/assets/images/books.jpg"
-      alt="about"
-      class="h-full w-full object-cover"
-    />
-    <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="absolute inset-0">
-      <div
-        class="container mx-auto px-4 sm:px-0 text-white h-full w-full flex flex-col items-center justify-center sm:justify-end text-2xl sm:text-5xl"
-      >
-        <div class="mb-4 sm:mb-8 text-center">About Us</div>
-      </div>
-    </div>
-  </div>
+  <InnerPageHero imageUrl="/images/books.jpg" title="About Us" />
 
   <div class="container mx-auto py-8 px-4 sm:px-0 sm:py-12">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum in
-    repellendus rem, harum nam! Nihil in cum earum consectetur ipsam pariatur
-    consequatur quaerat. At nostrum voluptatibus quam aliquam fugit modi unde
-    sapiente, numquam cupiditate repellat necessitatibus omnis repudiandae
-    adipisci fuga, totam consequatur possimus! Et saepe tempore recusandae in
-    sequi!
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, error
+      tenetur. Tempore id cumque nemo iure alias laudantium commodi suscipit
+      quasi quo amet quas harum qui totam temporibus assumenda esse nostrum
+      corporis magni tempora vitae, cum nisi. Maxime nobis eligendi, quam eaque
+      dicta voluptatem facere recusandae doloremque nam, inventore eveniet.
+    </p>
+
+    <p class="mt-4">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ut quidem
+      optio perferendis, quos eum id dignissimos voluptatibus molestias
+      cupiditate accusamus quis soluta illo. Quod amet inventore nemo minima
+      officia et facilis quam deserunt corporis obcaecati accusamus dicta
+      nesciunt optio quos quo autem maiores unde sint, quibusdam nam quaerat?
+      Velit.
+    </p>
+    <p class="mt-4">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ut quidem
+      optio perferendis, quos eum id dignissimos voluptatibus molestias
+      cupiditate accusamus quis soluta illo. Quod amet inventore nemo minima
+      officia et facilis quam deserunt corporis obcaecati accusamus dicta
+      nesciunt optio quos quo autem maiores unde sint, quibusdam nam quaerat?
+      Velit.
+    </p>
+    <p class="mt-4">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ut quidem
+      optio perferendis, quos eum id dignissimos voluptatibus molestias
+      cupiditate accusamus quis soluta illo. Quod amet inventore nemo minima
+      officia et facilis quam deserunt corporis obcaecati accusamus dicta
+      nesciunt optio quos quo autem maiores unde sint, quibusdam nam quaerat?
+      Velit.
+    </p>
   </div>
 </template>
 
 <script>
-export default {};
+import InnerPageHero from "@/components/includes/InnerPageHero.vue";
+
+export default {
+  components: {
+    InnerPageHero,
+  },
+};
 </script>
 
 <style></style>
